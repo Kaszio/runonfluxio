@@ -6,7 +6,6 @@ import jeremy from "../../public/images/team/jeremy.png";
 import nolan from "../../public/images/team/nolan.png";
 import valter from "../../public/images/team/Valter.jpg";
 import betty from "../../public/images/team/betty.png";
-import malik from "../../public/images/team/ali.png";
 import calin from "../../public/images/team/Calin.png";
 import dimitris from "../../public/images/team/dimitris.png";
 import sulmone from "../../public/images/team/tim.png";
@@ -96,7 +95,15 @@ const teamAsset = [
         intro: 'Jeremy is a Utah based software entrepreneur with 10+ years of expereince in software design, architecture, and team management.',
         description: 'He has worked with multiple blockchain companies and cryptocurrencies building layer 1 and layer 2 solutions for on chain assets, deterministic masternodes, algorithmic mining, and more. He holds a bachelors of Computer Science from the University of Utah and is currently helping pave the way for Web3 technologies.'
     },
-
+    {
+        name: 'Valter Silva',
+        thumbnail: valter,
+        twitterLink: 'https://twitter.com/Cabecinha1984',
+        linkedInLink: 'https://www.linkedin.com/in/valter-silva-864a6b13/',
+        title: 'Technology Lead and Community Member',
+        intro: 'Valter is a Lisbon based computer engineer with 15+ years of experience in software design, architecture, team management and technical project responsibility. ',
+        description: 'He has worked on multiple projects using a range of programming languages. Almost all his experience has been in the banking industry, from implementing SEPA direct debits to bank pledges, account opening to digital on-boarding. He loves digital transformation and is thrilled to be helping build the next generation of the  internet with Flux’s Web3 solution.'
+    },
     {
         name: 'Alex Perritaz',
         thumbnail: perritaz,
@@ -125,15 +132,6 @@ const teamAsset = [
         description: 'Leading strategic partnerships, business opportunities, and client relationships, he leverages his deep understanding of blockchain technologies and anticipates emerging trends. Lukas is a passionate advocate of Web3 and blockchain technology, having entered the industry in 2018. He pursued his studies in economic science at the University of Basel, Switzerland, where he obtained his Bachelors degree. Lukas leads a pivotal position in driving the development of strategic partnerships, recognizing emerging business prospects, and nurturing client relationships. With a profound comprehension of diverse blockchain technologies, he demonstrates a keen ability to identify and anticipate emerging trends.'
     },
     {
-        name: 'Valter Silva',
-        thumbnail: valter,
-        twitterLink: 'https://twitter.com/Cabecinha1984',
-        linkedInLink: 'https://www.linkedin.com/in/valter-silva-864a6b13/',
-        title: 'Technology Lead and Community Member',
-        intro: 'Valter is a Lisbon based computer engineer with 15+ years of experience in software design, architecture, team management and technical project responsibility. ',
-        description: 'He has worked on multiple projects using a range of programming languages. Almost all his experience has been in the banking industry, from implementing SEPA direct debits to bank pledges, account opening to digital on-boarding. He loves digital transformation and is thrilled to be helping build the next generation of the  internet with Flux’s Web3 solution.'
-    },
-    {
         name: 'Simon Jewell',
         thumbnail: jewell,
         twitterLink: '',
@@ -141,15 +139,6 @@ const teamAsset = [
         title: 'Full Stack Developer and Community Member',
         intro: 'Simon has been programming for 86.67% of his life, mostly in telecoms and mobile apps.',
         description: ' After a brief flirtation Simon joined the Flux team full time in 2021, and in his spare time he enjoys tinkering with Arduino projects and making pizza.'
-    },
-    {
-        name: 'Ali Malik',
-        thumbnail: malik,
-        twitterLink: 'https://twitter.com/Ali_Malik_80',
-        linkedInLink: 'https://www.linkedin.com/in/muhammad-malik-9791624b/',
-        title: 'Business Development and Community Member',
-        intro: 'With 15+ Years in telecom industry experience. Ali Malik joins Flux as a business development, Marketing & PR.',
-        description: ' Here at flux, responsible for market research and planning. Identify new opportunities and working with leadership team for identifying market strategies. Screen potential business opportunities that would bring revenue & exposure to the project. Managing proposal response process, decision making strategies, content creation and inputs from various sources.'
     },
     {
         name: 'Călin Timaru',

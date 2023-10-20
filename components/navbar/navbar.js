@@ -300,6 +300,16 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
+                        <Link href={'/fractusnode'} eventKey={1818} className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                        Fractus
+                        <br/>
+                        <div className={styles.sublink}>New FluxNode tier to support the Flux network.</div>
+                        </div>
+                        </Link>
+                       
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
                         <Link href={'/mining'} eventKey={19} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Miner
@@ -634,7 +644,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item eventKey="45">
-                        <Link href={'/carbonNeutrality'}  className={styles.link} >
+                        <Link href={'/fluxCarbon'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Carbon Neutrality <br/>
                         <div className={styles.sublink}>Flux emphasis a Sustainable Future <br/>in Blockchain &amp; Cloud Computing.</div>
@@ -679,6 +689,16 @@ export function NavBar(){
                         Node
                         <br/>
                         <div className={styles.sublink}>Become a FluxNode operator with our <br/> easy to follow guides.</div>
+                        </div>
+                        </Link>
+                       
+                    </NavDropdown.Item>
+                    <NavDropdown.Item eventKey="4848">
+                        <Link href={'/fractusnode'}  className={styles.link} >
+                        <div style={{textDecoration: "none", color: "inherit"}}>
+                        Fractus
+                        <br/>
+                        <div className={styles.sublink}>New FluxNode tier to support the <br/>Flux network.</div>
                         </div>
                         </Link>
                        
@@ -822,7 +842,7 @@ export function NavBar(){
                                 <div className={styles.topNavLink}> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki</a></div>
                                 <div className={styles.topNavLink}> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store </a></div>
                                 <div className={styles.topNavLink}> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></div>
-                                <div className={styles.topNavLink}> <a href="https://support.runonflux.io/" target="_blank" >Support</a></div>
+                                <div className={styles.topNavLink}> <a href="https://support.runonflux.io/" target="_blank" rel="noreferrer">Support</a></div>
                                 <div className={styles.topNavLink}> <a href="mailto:info@runonflux.io?subject=Contact%20Flux!">Contact</a></div>
 
                                 <div className={styles.mobileTopNav}>
