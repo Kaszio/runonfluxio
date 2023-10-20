@@ -55,7 +55,7 @@ export function NavBar(){
                         <div className="col-md-3"></div>
                         <div className="col-md-9">
                             <ul>
-                                <li> <a href="https://fluxwhitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper <Image alt="img" src={target}/></a></li>
+                                <li> <a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki<Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">FluxStore <Image alt="img" src={target}/></a></li>
                                 <li> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore <Image alt="img" src={target}/></a></li>
@@ -116,7 +116,7 @@ export function NavBar(){
                     <NavDropdown.Item >
                       <Link href={'/nodes'} className={styles.link} eventKey="3"> 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        Flux Nodes
+                        FluxNodes
                      <br/>
                     <div className={styles.sublink}>Learn more about the independently run FluxNodes that<br/> power the Flux network.</div>
                       </div>
@@ -250,7 +250,7 @@ export function NavBar(){
                        
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        <Link href={'/carbonNeutrality'} eventKey={15} className={styles.link} >
+                        <Link href={'/fluxCarbon'} eventKey={15} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Carbon Neutrality <br/>
                         <div className={styles.sublink}>Flux emphasis a Sustainable Future in Blockchain  &amp; <br/> Cloud Computing.</div>
@@ -311,7 +311,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                    
                     <NavDropdown.Item>
-                        <Link href={'/buyFlux'} eventKey={20} className={styles.link} >
+                        <Link href={'/flux#exchanges'} eventKey={20} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
@@ -503,7 +503,7 @@ export function NavBar(){
                     <NavDropdown.Item eventKey="33">
                       <Link href={'/nodes'} className={styles.link} > 
                       <div style={{textDecoration: "none", color: "inherit"}}>
-                        Flux Nodes
+                        FluxNodes
                      <br/>
                     <div className={styles.sublink}>Learn more about the independently run <br/>FluxNodes that power the Flux network.</div>
                       </div>
@@ -695,7 +695,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                    
                     <NavDropdown.Item eventKey="50" >
-                        <Link href={'/buyFlux'} className={styles.link} >
+                        <Link href={'/flux#exchanges'} className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                         Buy Flux
                         <br/>
@@ -736,7 +736,7 @@ export function NavBar(){
                     </NavDropdown.Item>
 
                     <NavDropdown.Item eventKey="57">
-                        <Link href={'/bugBounty'}  className={styles.link} >
+                        <Link href={'/bugBountyProgram'}  className={styles.link} >
                         <div style={{textDecoration: "none", color: "inherit"}}>
                        Bug bounty
                         <br/>
@@ -818,11 +818,11 @@ export function NavBar(){
                 <div className={styles.topNav2} style={{marginTop: "100px"}}>
                 <div className="container">
                     <div className="row text-center">
-                                <div className={styles.topNavLink}> <a href="https://fluxwhitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></div>
+                                <div className={styles.topNavLink}> <a href="https://whitepaper.app.runonflux.io/" target="_blank" rel="noreferrer">Whitepaper</a></div>
                                 <div className={styles.topNavLink}> <a href="https://wiki.runonflux.io/" target="_blank" rel="noreferrer">Wiki</a></div>
                                 <div className={styles.topNavLink}> <a href="https://gotflux.store/" target="_blank" rel="noreferrer">Flux Store </a></div>
                                 <div className={styles.topNavLink}> <a href="https://zelcore.io/" target="_blank" rel="noreferrer">Zelcore</a></div>
-                                <div className={styles.topNavLink}> <a href="https://support.runonflux.io/">Support</a></div>
+                                <div className={styles.topNavLink}> <a href="https://support.runonflux.io/" target="_blank" >Support</a></div>
                                 <div className={styles.topNavLink}> <a href="mailto:info@runonflux.io?subject=Contact%20Flux!">Contact</a></div>
 
                                 <div className={styles.mobileTopNav}>

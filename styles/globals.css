@@ -53,7 +53,7 @@ a {
 .modal-header{
   border-bottom: 0px !important;
   padding: 7px !important;
-  background-color: #052929db !important;
+  background-color: #13002d !important;
 }
 .modal-body{
   padding: 0px !important;
@@ -263,6 +263,23 @@ padding-right: 10px !important;
   .navbar-collapse{
     margin-top: -2px;
     background: rgba(17,24,39)!important;
+    max-width: 100% !important;
+    box-sizing: content-box !important;
+    padding-bottom: 50px !important;
+    /* padding-left: 20px; */
+    backdrop-filter: blur(12px) !important;
+    height: 100vh !important;
+    /* border: 2px solid red; */
+    position: absolute !important;
+    width: 100% !important;
+    top: 100% !important;
+    transition: 0.1s cubic-bezier(0, 0, 0, 1) !important;
+    
+  }
+
+  .navbar2 .navbar-collapse{
+    margin-top: -2px;
+    background:rgb(13, 17, 23, 0.8)!important;
     max-width: 100% !important;
     box-sizing: content-box !important;
     padding-bottom: 50px !important;

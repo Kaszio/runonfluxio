@@ -114,12 +114,12 @@ async redirects() {
     //   permanent: false,
     //   basePath: false
     // },
-    {
-      source: '/buyFlux',
-      destination: 'https://runonflux.io/flux.html#exchanges',
-      permanent: false,
-      basePath: false
-    },
+    // {
+    //   source: '/buyFlux',
+    //   destination: 'https://runonflux.io/flux.html#exchanges',
+    //   permanent: false,
+    //   basePath: false
+    // },
     {
       source: '/fluxStore',
       destination: 'https://gotflux.store/',
@@ -159,12 +159,18 @@ async redirects() {
       permanent: false,
       basePath: false
     },
-    // {
-    //   source: '/pricing',
-    //   destination: '',
-    //   permanent: false,
-    //   basePath: false
-    // },
+    {
+      source: '/apply',
+      destination: 'mailto:labs@runonflux.io',
+      permanent: false,
+      basePath: false
+    },
+    {
+      source: '/apply2',
+      destination: 'mailto:labs@runonflux.io?subject=MAKE FLUX GO GREEN',
+      permanent: false,
+      basePath: false
+    },
   ]
 },
                                                                              
