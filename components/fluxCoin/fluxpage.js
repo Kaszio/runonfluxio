@@ -96,7 +96,7 @@ import lineLogos from "../../public/images/flux/logoline.svg"
 import circleGraph from "../../public/images/flux/circleGraph.svg"
 import mulitRing from "../../public/images/flux/multichainRing.svg"
 import lineConecter from "../../public/images/flux/LineConecter.svg"
-import ecosystemImg from "../../public/images/flux/ecosystem.svg"
+import ecosystemImg from "../../public/images/flux/ecosystem-svg.png"
 import walletImg from "../../public/images/flux/wallet.png"
 import classNames from "classnames";
 

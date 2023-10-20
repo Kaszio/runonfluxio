@@ -141,7 +141,7 @@ export function HomePage(){
                             <h1>Build on <br/><span>Web 3.0 </span>Today</h1><br/>
                             <h6>The Flux Cloud is a People-Powered Network to help you build decentralized applications with increased flexibility, scalability, and censorship resistance</h6>
                             <div className={styles.buttons}>
-                            <a href="https://cloud.runonflux.io/" className={styles.btn2}>Deploy Now</a>
+                            <a target="_blank" href="https://cloud.runonflux.io/" className={styles.btn2}>Deploy Now</a>
                             <a href="https://home.runonflux.io/apps/marketplace" rel="noreferrer" target="_blank" className={styles.btn1}>Marketplace</a>
                             </div>
                             <p>$ Calculate the cost for your solution.   <a href="https://cloud.runonflux.io/"  rel="noreferrer" target="_blank">View Cost</a></p>

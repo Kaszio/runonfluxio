@@ -93,7 +93,8 @@ export function NavBar(){
                   >
                      <div className={styles.dropMenu}>
                     <NavDropdown.Item>
-                     <Link href={'/fluxCloud'} className={styles.link}  eventKey={1} > 
+                      {/* target={"_blank"} rel={"noopener noreferrer"} */}
+                     <Link href={"/fluxCloud"} className={styles.link}  eventKey={1}>                     
                       <div style={{textDecoration: "none", color: "inherit", marginTop: "10px"}} >
                     Flux Cloud<br/>
                     <div className={styles.sublink}>Flux Cloud presents the next generation of cloud <br/>infrastructure.</div>
@@ -114,7 +115,7 @@ export function NavBar(){
                     </NavDropdown.Item>
                     
                     <NavDropdown.Item >
-                      <Link href={'/nodes'} className={styles.link} eventKey="3"> 
+                      <Link href={'/nodes'} className={styles.link} eventKey="3">  
                       <div style={{textDecoration: "none", color: "inherit"}}>
                         FluxNodes
                      <br/>
